@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-const {data} = await useFetch('/api/hello')
+const {data} = await useFetch('/api/auth/hello')
 
 </script>
